@@ -1,0 +1,11 @@
+CREATE DATABASE ouvidoria;
+
+USE ouvidoria;
+
+CREATE TABLE ocorrencias(
+id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+tipo VARCHAR(20) NOT NULL,
+descricao VARCHAR (255) NOT NULL
+)
+
+SELECT * FROM ocorrencias;
